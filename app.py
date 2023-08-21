@@ -19,8 +19,7 @@ This is the **EDA App** created in Streamlit using the **pandas-profiling** libr
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
     st.sidebar.markdown("""
-[Example CSV input file](https://github.com/timothypesi/Data-Sets-For-Machine-Learning-/blob/main/weather-weka.csv)
-""")
+[Example CSV input file](https://raw.githubusercontent.com/liviaellen/EDA-data-with-streamlit/master/auto-mpg.csv)""")
 
 # Pandas Profiling Report
 if uploaded_file is not None:
